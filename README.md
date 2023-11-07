@@ -45,12 +45,20 @@ Se ejecuta en google colab, sin instalación adicional.
 
 ## Uso
 * Código inicial
-  ![image](https://github.com/Bellezatabaskena/IngSoftware/assets/114634159/f628bc72-4115-4309-93ca-5afedb97003f)
+* La ambigüedad es la cualidad de aquel lenguaje que puede entenderse de varios modos o admitir distintas interpretaciones y dar, por consiguiente, motivo a dudas, incertidumbre o confusión (La Ambigüedad - Pregrados Y Posgrados En Bogotá, n.d.).
+* Lo que yo comprendo por ambigüedad en un sistema, es que el programador o desarrollador puede crear un programa, en el cual las instrucciones no son muy claras y al momento de llegar al usuario, este no sabe en si que es exactamente lo que necesita hacer, pues se crea una confusión.
+* En el código que realicé en colab, el mes pasado, había declarado dos veces la variable "usuario", en la cual en la línea 3, se guardaba un nombre, y en el de la línea 6, se guardaba una serie de 5 números, a mi parecer , ahi yo misma tuve un problema de ambigüedad ya que la misma variable almacenaba dos cosas totalmente distintas, y como se puede apreciar en la línea 24 del código, al momento de volver a imprimir lo que estaba guardado en la variable “usuario”, pues el sistema imprimía lo último que se guardó lo cual era la serie de números a ordenar y no el nombre real del usuario.
+
+![image](https://github.com/Bellezatabaskena/IngSoftware/assets/114634159/d3f021bd-c4c7-4df0-8619-e6b40abf6454)
+
+* Entonces, fué necesario cambiar una de las variables, la que almacena la lista de números, ahora se llama “lista” y es de esta manera como el sistema funciona de manera adecuada, ya que imprime un nombre de usuario cuando es necesario, como se puede apreciar en las líneas 3 y 24, y también imprime una lista de números, como se nota en la línea 6.
+  
+![image](https://github.com/Bellezatabaskena/IngSoftware/assets/114634159/cf34aef9-384e-4943-9d28-b348faa2e79c)
 
 * Código actualizado
-  ![image](https://github.com/Bellezatabaskena/IngSoftware/assets/114634159/9907934d-163c-4918-b6bc-a856e864f92a)
-  ![image](https://github.com/Bellezatabaskena/IngSoftware/assets/114634159/25b5612e-3058-4a76-aabd-bdabf13befd6)
-
+* Continué trabajando en el código para mejorar su usabilidad y eficiencia, ya que se me ocurrió mejorarlo de manera, que pida un numero a ingresar por dia de la semana, ya que al momento de imprimir los resultados, pueda dar más detalles acerca de la lista de números ya ordenados, a parte de una lista de números ascendentes y otra descendente, este también proporciona al usuario información sobre cuál dia de la semana se ingresó un número mayor y cuál dia de la semana se ingreso el número menor, a parte de la suma total de los números ingresados, todo esto con el fin de tener una idea de cómo es que funciona un sistema para llevar algún tipo de contabilidad, obvio este sistema son los pasos de bebé de un sistema completo que  pudiera crear y desarrollar más adelante.
+  
+![image](https://github.com/Bellezatabaskena/IngSoftware/assets/114634159/818a4b90-4294-44c3-89f9-9834111373a9)
 
 ## Licencia
 
